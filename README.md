@@ -16,9 +16,12 @@ Convert a date time in mexican format at time to call `toStringMex` method.
 
 Just create a `DateTime` object like this:
 
-> `let date = new DateTime()`
-> `console.log(date.toStringMex)`
+> `import spanishdate as require('spanishdate')`
+
+> `let date = spanishdate(new Date(2017, 11, 1))`
+
+> `console.log(date)`
 
 It will show in console:
 
-> Martes 12 de Diciembre 2017
+> Viernes 1 de Diciembre de 2017
